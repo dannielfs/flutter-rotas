@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:proj/core/app_colors.dart';
 
 class OrgsProfileCard extends StatelessWidget {
