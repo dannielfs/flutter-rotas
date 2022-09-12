@@ -17,7 +17,7 @@ class LoginScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(
-            AppImages.logo_login,
+            AppImages.logoLogin,
             fit: BoxFit.fitWidth,
             width: double.maxFinite,
             // height: 180,
@@ -50,8 +50,8 @@ class LoginScreen extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () => onHomeClick,
                 style: ElevatedButton.styleFrom(
-                  primary: AppColors.green, // background
-                  onPrimary: Colors.white, // foreground
+                  backgroundColor: AppColors.green, // background
+                  foregroundColor: Colors.white, // foreground
                 ),
                 child: Text('Entrar'),
               ),

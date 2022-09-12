@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nuvigator/next.dart';
 import 'package:proj/core/app_colors.dart';
 import 'package:proj/core/app_images.dart';
 
@@ -11,7 +10,6 @@ class SingupScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final nuvigator = Nuvigator.of(context);
 
     return Scaffold(
         body: SingleChildScrollView(
@@ -19,7 +17,7 @@ class SingupScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(
-            AppImages.logo_login,
+            AppImages.logoLogin,
             fit: BoxFit.fitWidth,
             width: double.maxFinite,
             // height: 180,
@@ -66,8 +64,8 @@ class SingupScreen extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  primary: AppColors.green, // background
-                  onPrimary: Colors.white, // foreground
+                  backgroundColor: AppColors.green, // background
+                  foregroundColor: Colors.white, // foreground
                 ),
                 child: Text('Cadastrar-me'),
               ),

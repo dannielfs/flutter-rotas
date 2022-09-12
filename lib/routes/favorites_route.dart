@@ -1,4 +1,4 @@
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/material.dart';
 import 'package:nuvigator/next.dart';
 import 'package:proj/screens/favorites_screen.dart';
 

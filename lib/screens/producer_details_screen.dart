@@ -35,7 +35,7 @@ class ProducerDetailsScreen extends StatelessWidget {
           Stack(
             children: [
               Image.asset(
-                AppImages.bg_producer,
+                AppImages.bgProducer,
                 fit: BoxFit.fitWidth,
                 width: double.infinity,
                 height: 180,

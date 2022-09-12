@@ -40,7 +40,7 @@ class OrgsHighlightsCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.asset(
-                    AppImages.logo_icon,
+                    AppImages.logoIcon,
                     width: 30,
                   ),
                   SizedBox(height: 5),
@@ -71,7 +71,7 @@ class OrgsHighlightsCard extends StatelessWidget {
                       ),
                     ),
                     style: ElevatedButton.styleFrom(
-                      primary: AppColors.green,
+                      backgroundColor: AppColors.green,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10.0),
                       ),

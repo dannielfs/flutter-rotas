@@ -5,7 +5,7 @@ import 'package:proj/core/app_images.dart';
 class OrgsPackagesCard extends StatelessWidget {
 
   final String title;
-  final String photo = AppImages.vegetables_package;
+  final String photo = AppImages.vegetablesPackage;
   final String description;
   final String price;
 

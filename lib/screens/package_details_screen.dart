@@ -34,7 +34,7 @@ class PackageDetailsScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(
-            AppImages.package_details,
+            AppImages.packageDetails,
             fit: BoxFit.fitWidth,
             width: double.infinity,
             height: 180,
@@ -108,8 +108,8 @@ class PackageDetailsScreen extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: (){},
                 style: ElevatedButton.styleFrom(
-                  primary: AppColors.green, // background
-                  onPrimary: Colors.white, // foreground
+                  backgroundColor: AppColors.green, // background
+                  foregroundColor: Colors.white, // foreground
                 ),
                 child: Text('Comprar'),
               ),
