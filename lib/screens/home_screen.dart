@@ -142,7 +142,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
     for (final producer in producers.keys) {
       final prod = Producer.fromJson(producers[producer]);
-
       children.add(OrgsStoresCard(
         action: () => widget.onProducerDetailsClick({'producer': prod}),
         img: prod.logo,
@@ -160,7 +159,6 @@ class _HomeScreenState extends State<HomeScreen> {
     List<Widget> children = [];
     final data = await Data.getJson();
     final highlights = data["highlights"];
-
     for (final highlight in highlights) {
       children.add(OrgsHighlightsCard(
         img: highlight["image"],
